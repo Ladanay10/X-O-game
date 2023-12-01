@@ -1,0 +1,25 @@
+.player_1 {
+	display: flex;
+	color: #000;
+	height: 139px;
+	width: 140px;
+	padding: 14px 25px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	background: rgba(72, 210, 254, 1)
+}
+
+.player_2 {
+	display: flex;
+	color: #000;
+	height: 139px;
+	width: 140px;
+	padding: 14px 25px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	background: #E2BE00;
+}

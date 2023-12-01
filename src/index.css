@@ -1,13 +1,93 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #5A1E76;
+	height: 100vh;
+	width: 100%;
+}
+
+.game {
+	margin: 20px;
+	padding: 20px;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	border-radius: 50px;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 20px;
+	background: #2B0040;
+	color: #fff;
+}
+
+.players_info {
+	display: flex;
+	gap: 170px;
+	position: relative;
+}
+
+
+.active_player_1 {
+	font-size: 25px;
+	position: absolute;
+	left: -110px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	top: 50px;
+}
+
+.active_player_2 {
+	font-size: 25px;
+	position: absolute;
+	right: -110px;
+	top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.active_player_1 {
+	font-size: 25px;
+	position: absolute;
+	left: -110px;
+	top: 50px;
+}
+
+.btn_new-game {
+	border-radius: 10px;
+	background: #F4F6F5;
+	color: #000;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 500;
+	padding: 25px;
+	outline: none;
+	border: none;
+}
+
+.table-size {
+	font-size: 25px;
+	display: flex;
+	gap: 5px;
+}
+
+.modal_info {
+	display: flex;
+	flex-direction: column;
+	font-size: 24px;
+	text-align: center;
+}
+
+.modal_info_player {
+	font-size: 28px;
+	font-weight: bold;
 }
